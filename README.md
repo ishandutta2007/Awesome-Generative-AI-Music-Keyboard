@@ -29,7 +29,7 @@
 
 Welcome to the definitive curated ecosystem guide for **generative AI music keyboards**, **open-source AI music generation models**, and **hardware-integrated MIDI instruments**. Generative AI music technology allows musicians, developers, and creators to generate complete multi-instrumental compositions, steer live audio via key-press conditioning, generate full vocal tracks from text prompts, and automate chord progressions.
 
-Whether you are evaluating top commercial SaaS platforms (*Suno*, *Udio*, *AIVA*), hardware MIDI keyboards with ML controllers (*ROLI Piano + Airwave*, *AWS DeepComposer*), or running local self-hosted open-source models (*AudioCraft / MusicGen*, *Google Magenta*, *ACE-Step 1.5*), this directory provides comprehensive pricing, free tier limits, star counts, and technical specs. 🎼 ⚡
+Whether you are evaluating top commercial SaaS platforms (*Suno*, *Udio*, *AIVA*), hardware MIDI keyboards with ML controllers (*ROLI Piano + Airwave*, *AWS DeepComposer*), or running local self-hosted open-source models (*AudioCraft / MusicGen*, *Google Magenta*, *ACE-Step 1.5*), this directory provides comprehensive pricing, free tier limits, Stars_Counts, and technical specs. 🎼 ⚡
 
 **Key Market Insights:** 💡
 - 📈 **Market Size & Structure:** The global AI music generation market is estimated at **$1.2 Billion in 2026** and projected to reach **$4.8 Billion by 2030** (CAGR ~32%). The sector is currently **moderately fragmented**, with high capital concentration at the foundation model tier (e.g. Suno valued at $5.4B), while specialized workflows (DAW plugins, local inference, hardware controllers) remain vibrant and competitive.
@@ -69,16 +69,16 @@ Whether you are evaluating top commercial SaaS platforms (*Suno*, *Udio*, *AIVA*
 
 ## 🔓 Open-Source GitHub Projects 💻 🌟
 
-*Sorted by GitHub Stars Count (Descending)* 📊
+*Sorted by GitHub_Stars_Count (Descending)* 📊
 
 - **[llama.cpp (Music & Audio Capabilities)](https://github.com/ggerganov/llama.cpp)** [![Stars](https://img.shields.io/github/stars/ggerganov/llama.cpp?style=social&color=white)](https://github.com/ggerganov/llama.cpp/stargazers)  
-  **LLM inference in C/C++ with audio model support**, MIT licensed. **70K+ GitHub stars** — **runs on CPU, GPU, and Apple Silicon**. **GGUF quantization** for reduced memory footprint. Foundation for local AI tools and symbolic music pipelines. 🦙 ⚡
+  **LLM inference in C/C++ with audio model support**, MIT licensed. **70K+ GitHub_Stars** — **runs on CPU, GPU, and Apple Silicon**. **GGUF quantization** for reduced memory footprint. Foundation for local AI tools and symbolic music pipelines. 🦙 ⚡
 
 - **[AudioCraft / MusicGen (Meta)](https://github.com/facebookresearch/audiocraft)** [![Stars](https://img.shields.io/github/stars/facebookresearch/audiocraft?style=social&color=white)](https://github.com/facebookresearch/audiocraft/stargazers)  
-  **Meta's deep learning audio generation library**, MIT licensed. **23.7K+ GitHub stars** — includes **MusicGen** (controllable text-to-music / melody conditioning), **AudioGen**, and **EnCodec**. Supports MIDI-steered melody generation and local PyTorch deployment. 🎵 🤖
+  **Meta's deep learning audio generation library**, MIT licensed. **23.7K+ GitHub_Stars** — includes **MusicGen** (controllable text-to-music / melody conditioning), **AudioGen**, and **EnCodec**. Supports MIDI-steered melody generation and local PyTorch deployment. 🎵 🤖
 
 - **[Google Magenta Framework](https://github.com/magenta/magenta)** [![Stars](https://img.shields.io/github/stars/magenta/magenta?style=social&color=white)](https://github.com/magenta/magenta/stargazers)  
-  **Google's research project exploring machine learning in music and art**, Apache-2.0 licensed. **19.8K+ GitHub stars** — pioneering framework behind **NoteRNN, MusicVAE, DrumsRNN**, and MIDI keyboard generation utilities. 🎹 🎨
+  **Google's research project exploring machine learning in music and art**, Apache-2.0 licensed. **19.8K+ GitHub_Stars** — pioneering framework behind **NoteRNN, MusicVAE, DrumsRNN**, and MIDI keyboard generation utilities. 🎹 🎨
 
 - **[ACE-Step 1.5](https://github.com/ace-step/ACE-Step-1.5)** [![Stars](https://img.shields.io/github/stars/ace-step/ACE-Step-1.5?style=social&color=white)](https://github.com/ace-step/ACE-Step-1.5/stargazers)  
   **The most powerful local music generation model**, MIT licensed. **Outperforms commercial alternatives** — supporting **Mac, AMD, Intel, and CUDA devices**. **Full song generation from simple descriptions** with **query rewriting, audio understanding, and LRC generation**. Features **Repaint & Edit**, stem track separation, Vocal2BGM, and LoRA training (8 songs in 1 hr on 3090). Includes Gradio Web UI & REST API. 🎶 🚀
@@ -87,7 +87,7 @@ Whether you are evaluating top commercial SaaS platforms (*Suno*, *Udio*, *AIVA*
   **Open-source real-time live music model by Google**, Apache-2.0 licensed. **~0.2s control delay** — **frame-by-frame conditioning at 25 Hz** (40 ms per frame). **Decoder-only sliding window attention** for continuous streaming generation. Multi-signal control: **style (audio/text), note on/off, drums on/off**. Steer with live MIDI keyboard input. 🎹 ⚡
 
 - **[Microsoft Muzic / MusicBERT](https://github.com/microsoft/muzic)** [![Stars](https://img.shields.io/github/stars/microsoft/muzic?style=social&color=white)](https://github.com/microsoft/muzic/stargazers)  
-  **Microsoft's research project on AI music understanding and generation**, MIT licensed. **4.2K+ GitHub stars** — features **MusicBERT** (symbolic music understanding), **SongMASS** (vocal lyric-to-melody generation), **TeleMelody**, and **GetMusic**. 🎼 🧠
+  **Microsoft's research project on AI music understanding and generation**, MIT licensed. **4.2K+ GitHub_Stars** — features **MusicBERT** (symbolic music understanding), **SongMASS** (vocal lyric-to-melody generation), **TeleMelody**, and **GetMusic**. 🎼 🧠
 
 - **[NanoMaestro Realtime](https://huggingface.co/utkucoban/NanoMaestro-Realtime)** [![Stars](https://img.shields.io/github/stars/utkucoban/NanoMaestro-Realtime?style=social&color=white)](https://github.com/utkucoban/NanoMaestro-Realtime/stargazers)  
   **Tiny local real-time symbolic piano generator**, CC-BY-NC-4.0 licensed. **Runs continuously on consumer CPUs** — **Light model ~14 MB, Pro model ~54 MB** (INT8 quantized). Client-side browser WASM inference trained on 496M–2.52B piano MIDI tokens. 🎹 💡
